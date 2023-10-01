@@ -4,6 +4,10 @@
 This README provides an overview of the hackathon project focused on exploring the medical implications resulting from Type 2 Diabetes. The project aimed to build predictive models to determine if a patient will have cardiovascular complications within the next 10 years. The project involved data preprocessing, feature engineering, model building, and an innovative optimization framework to provide personalized recommendations for patients.
 
 ## Project Details
+Although the project is only a prototype, this is the vision of the project as a whole.
+The project was in 2 phases. First we created a ML model that is able to predict a binary variable of "will the patient have a cardiovascular implication in the next 10 years".
+After that, on the second phase, we create a product that uses this model, and create a custom made plan for the patient that is both minimal and robust due to the unique kind of optimization
+used as our model (refrences are added to the article used).
 
 ### Data
 The dataset used for this project contained the following features:
@@ -66,3 +70,9 @@ The result is a personalized plan designed to help diabetic patients avoid cardi
 
 ## Conclusion
 This hackathon project successfully explored the medical implications of Type 2 Diabetes, developed predictive models, and created an innovative optimization framework for personalized patient recommendations. The application of machine learning and optimization in the medical field offers the potential to improve patient outcomes and quality of life.
+
+## Thanks and References
+We were inspired by the article "Finding Regions of Counterfactual Explanations via Robust Optimization”, 2023, Maranago et. al.
+Maragano and his team we kind to create and release the RCE library for others to use.
+So I would like to thank them for their idea and contribution! 
+You can find their article in the refrence folder here.
